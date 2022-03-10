@@ -8,22 +8,21 @@ const Header = () => {
         <div className="header">
             <div className='logo-wrapper'>
                 <a href='/'><Logo /></a>
-
             </div>
             <div className='nav-links'>
                 <div className='nav-link'>
-                    <a href='/'>Method</a>
+                    <a href='/' className='transition'>Method</a>
                 </div>
                 <div className='nav-link'>
-                    <a href='/'>Changelog</a>
+                    <a href='/' className='transition'>Changelog</a>
                 </div>
                 <div className='nav-link'>
-                    <a href='/'>Pricing</a>
+                    <a href='/' className='transition'>Pricing</a>
                 </div>
             </div>
             <div className="nav-cta">
                 <div className='link'>
-                    <a className='login' href='/'>Login</a>
+                    <a className='login transition' href='/'>Login</a>
                 </div>
                 <div className='link'>
                     <a className='get-started' href='/'>Get Started</a>

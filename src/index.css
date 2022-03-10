@@ -6,6 +6,9 @@
 	text-decoration: none;
 	background: none;
 	border: none;
+}
+.transition,
+.transition:hover {
 	transition: 200ms ease;
 }
 body {
