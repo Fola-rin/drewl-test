@@ -1,0 +1,70 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 40px 140px;
+	width: 100%;
+	background: transparent;
+}
+.header .logo-wrapper {
+	justify-self: flex-start;
+	width: 50%;
+}
+.header .logo-wrapper a {
+	display: block;
+}
+.header .logo-wrapper a:hover svg path {
+	fill: #9643ff;
+}
+
+.header .nav-links {
+	display: flex;
+	justify-content: center;
+}
+.header .nav-links .nav-link {
+	padding: 20px;
+}
+
+.header .nav-links .nav-link a {
+	color: #949494;
+}
+
+.header .nav-links .nav-link a:hover {
+	color: #9643ff;
+}
+
+.header .nav-cta {
+	display: flex;
+	justify-content: end;
+	justify-self: flex-end;
+	width: 50%;
+}
+.header .nav-cta .link:first-child {
+	margin-right: 40px;
+}
+
+.header .nav-cta .link .login {
+	color: #9643ff;
+}
+.header .nav-cta .link .login:hover {
+	font-weight: 600;
+}
+.header .nav-cta .link .get-started {
+	color: #fff;
+	font-weight: 700;
+	padding: 15px 30px;
+	border: 1px solid;
+	border-image-slice: 1;
+	border-width: 1px;
+	border-image-source: linear-gradient(
+		94.51deg,
+		#9643ff 10%,
+		rgba(150, 67, 255, 0) 100%
+	);
+	transition: 300ms cubic-bezier(0.4, 0, 1, 1);
+}
+
+.header .nav-cta .link .get-started:hover {
+	border-image-source: linear-gradient(94.51deg, #9643ff 0%, #9643ff 100%);
+	transition: 300ms cubic-bezier(0.4, 0, 1, 1);
+}
