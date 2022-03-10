@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.420a91fd.css",
+    "main.js": "/static/js/main.dfc3abf8.js",
+    "static/media/features.png": "/static/media/features.baf0c34c6ef5fada2866.png",
+    "static/media/CircularStd-Bold.otf": "/static/media/CircularStd-Bold.5c4514a8399ec0064b9b.otf",
+    "static/media/CircularStd-Book.otf": "/static/media/CircularStd-Book.9048137056e4347dbbd5.otf",
+    "static/media/instagram.svg": "/static/media/instagram.63d157e7ecc67997b7861006edded349.svg",
+    "static/media/discord.svg": "/static/media/discord.03037843ee7bc51d243c8c15937debcb.svg",
+    "static/media/logo.svg": "/static/media/logo.21e33b7bc768df3e96de980a3f527a52.svg",
+    "static/media/facebook.svg": "/static/media/facebook.d8f90ad586b2f2c70a840584f64869bf.svg",
+    "static/media/star.svg": "/static/media/star.24de65892733b45de5fe85188f9139b8.svg",
+    "static/media/bg.svg": "/static/media/bg.5f25b8045b016026848d36522176acf5.svg",
+    "index.html": "/index.html",
+    "static/media/twitter.svg": "/static/media/twitter.c8bb33f31b8bdffdeb82973e79f4a206.svg",
+    "main.420a91fd.css.map": "/static/css/main.420a91fd.css.map",
+    "main.dfc3abf8.js.map": "/static/js/main.dfc3abf8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.420a91fd.css",
+    "static/js/main.dfc3abf8.js"
+  ]
+}

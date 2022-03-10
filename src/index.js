@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
+import './assets/fonts/Circular/CircularStd-Book.otf'
+import './assets/fonts/Circular/CircularStd-Bold.otf'
+
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
