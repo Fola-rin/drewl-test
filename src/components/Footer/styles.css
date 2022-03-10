@@ -1,0 +1,72 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	padding: 40px 140px;
+	background: transparent;
+}
+
+.footer .info {
+	width: 330px;
+}
+.footer .info .logo-wrapper {
+	margin-bottom: 10px;
+}
+.footer .info .logo-wrapper a {
+	display: inline-block;
+}
+.footer .info .logo-wrapper a svg path {
+	transition: 200ms ease;
+}
+.footer .info .logo-wrapper a:hover svg path {
+	fill: #9643ff;
+	transition: 200ms ease;
+}
+
+.footer .info p {
+	color: #949494;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+.footer .info .socials {
+	display: flex;
+	justify-content: start;
+}
+.footer .info .socials .link {
+	margin-right: 22px;
+}
+.footer .info .socials .link:last-child {
+	margin: 0;
+}
+.footer .info .socials .link a:hover svg path {
+	transition: 200ms ease;
+}
+.footer .info .socials .link a:hover svg path {
+	transition: 200ms ease;
+	fill: #9643ff;
+}
+.footer .page-links {
+	display: flex;
+}
+.footer .page-links .wrapper {
+	margin-right: 40px;
+	max-width: 150px;
+}
+.footer .page-links .wrapper:last-child {
+	margin: 0;
+}
+.footer .page-links .wrapper p {
+	margin-bottom: 15px;
+}
+.footer .page-links .wrapper .links .link {
+	margin-bottom: 10px;
+}
+
+.footer .page-links .wrapper .links .link a {
+	color: #949494;
+	font-size: 15px;
+	line-height: 24px;
+}
+.footer .page-links .wrapper .links .link a:hover {
+	color: #9643ff;
+}
