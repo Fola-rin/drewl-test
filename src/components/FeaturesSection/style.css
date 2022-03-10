@@ -29,7 +29,7 @@
 }
 .features .wrapper .text-wrapper .desc {
 	font-size: 22px;
-	margin-bottom: 70px;
+	margin-bottom: 80px;
 }
 
 .features .wrapper .text-wrapper .link-wrapper a {
@@ -45,7 +45,6 @@
 		rgba(150, 67, 255, 0) 100%
 	);
 	transition: 300ms cubic-bezier(0.4, 0, 1, 1);
-	display: inline-block;
 }
 .features .wrapper .text-wrapper .link-wrapper a:hover {
 	border-image-source: linear-gradient(94.51deg, #9643ff 0%, #9643ff 100%);

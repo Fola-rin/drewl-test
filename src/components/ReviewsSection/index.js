@@ -5,10 +5,14 @@ import './styles.css'
 
 const ReviewsSection = () => {
     return (
-        <div className="reviews">
-            <h2>What our current users think of company</h2>
+        <div className="reviews" >
+            <h2 data-aos="fade-up" data-aos-easing="ease-in-out"
+                data-aos-duration="650"
+                data-aos-delay="200">What our current users think of company</h2>
 
-            <div className='rating-wrapper'>
+            <div className='rating-wrapper' data-aos="fade-up" data-aos-easing="ease-in-out"
+                data-aos-duration="650"
+                data-aos-delay="300">
                 <div className='stars'>
                     <Star />
                     <Star />
@@ -19,7 +23,9 @@ const ReviewsSection = () => {
                 <p><b>5.0</b> based on customer reviews.</p>
             </div>
 
-            <div className='card-container'>
+            <div className='card-container' data-aos="fade-up" data-aos-easing="ease-in-out"
+                data-aos-duration="650"
+                data-aos-delay="300">
                 <Card />
                 <Card />
                 <Card long />

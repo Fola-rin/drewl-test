@@ -30,7 +30,7 @@
 }
 .footer .info .socials {
 	display: flex;
-	justify-content: start;
+	justify-content: flex-start;
 }
 .footer .info .socials .link {
 	margin-right: 22px;
