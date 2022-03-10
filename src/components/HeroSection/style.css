@@ -5,13 +5,15 @@
 .hero-section h1 {
 	font-size: 48px;
 	font-weight: 700;
-	width: 490px;
+	/* width: 490px; */
+	width: 60%;
 	margin: 0 auto 20px;
 }
 
 .hero-section p {
 	font-size: 22px;
-	width: 490px;
+	/* width: 490px; */
+	width: 60%; /*I added the percentage for the sake of larger screens  */
 	margin: 0 auto 100px;
 }
 
